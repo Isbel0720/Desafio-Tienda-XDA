@@ -11,8 +11,13 @@
   'base/typography';
 
   @import
+  'layout/header',
+  'layout/section',
+  'layout/form';
+
+  @import
   'components/navbar',
   'components/buttons',
   'components/input';
 
-
+  

@@ -3,16 +3,17 @@
     margin-left: 0px;
 }
 .navbar-nav{
+    padding-right: 30px; 
     font-family: $raleway;
-    padding-right: 30px;
+    font-size: $negro;
 } 
-
 
 .navbar-light {
     .navbar-brand {
     color: $white;
     font-size: $xx-large;
     background-color: $smoky-black;
+    font-family: $old-standar-tt; 
 }
 }
 

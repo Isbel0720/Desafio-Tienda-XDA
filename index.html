@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700|Raleway:400,700&display=swap">
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700|Raleway:400,700&display=swap"
+        rel="stylesheet">
     <!--mi esilo-->
     <link rel="stylesheet" href="assets/css/main.css">
     <title>Tienda | XDA</title>
 </head>
 
 <body>
-
+    <!--navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <a class="navbar-brand" href="#">XDA</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -39,26 +40,33 @@
     </nav>
 </body>
 
+<!--header-->
 <header class="header">
-    <div class="col-md-6">
+    <div class="header__principal col-sm-6">
         <div class="row">
-
-            <h1>LOREM IPSUM AD VALOREM</h1>
-
-            <div class="texto">
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, officia exercitationem laboriosam doloribus labore eos dolor fugit eveniet minus quaerat natus nulla? Quasi nihil quidem debitis commodi dolore praesentium ipsa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                    Voluptate distinctio, odit fuga quis aperiam eum? Numquam provident repudiandae suscipit qui quos quae aut unde tempore illum, repellendus obcaecati fugiat itaque!</p>
+            <h1 class="header__titulo">LOREM IPSUM AD VALOREM</h1>
+            <div class="header__texto">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, officia exercitationem laboriosam
+                    doloribus labore eos dolor fugit eveniet minus quaerat natus nulla? Quasi nihil quidem debitis
+                    commodi dolore praesentium ipsa. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
 
-            <div>
-                
+            <!--Botón-->
+            <div class="button-buy">
+                <button class="formulario__button__btn" type="button">Ir a la tienda</button>
             </div>
         </div>
-
     </div>
-
-
 </header>
-
+<div class="rotate-text">Suscribir</div>
+<form class="formulario col-md-5">
+    <div class="noticias">
+        <h2>Newsletter</h2>
+    </div>
+    <div class="form-group">
+        <label for="formGroupExampleInput">Correo Electrónico</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingresa tu corre electrónico">
+    </div>
+</form>
 
 </html>

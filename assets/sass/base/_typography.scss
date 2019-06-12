@@ -1,3 +1,19 @@
-body{
-    font-family: $old-standar;
+h1{
+    font-family: $old-standar-tt;
+    padding-right: 100px;
+    padding-left: 33px;
+    padding-bottom: 10px;
+    font-size: $xxx-large;
+    font-style: $regular;
+}
+
+h2{
+
+    font-family: $old-standar-tt;
+}
+
+p{
+    font-family: $raleway;
+    font-size: $regular;
+    line-height: 30px;
 }
