@@ -6,13 +6,15 @@
 
 @media (max-width:1024px){
     .header{
-        margin: 50px 50px 30px;
+        margin: 996px 6px 22px;
+        padding: 80px 46px 0px;
     }
 }
 
 @media (max-width:375px){
     .header{
-        margin: 668px 30px 0px;
+        margin: 593px 30px 0px 0px;
+        padding: 76px 24px 0px;
     }
 }
 
@@ -24,7 +26,8 @@
 
 @media (max-width:1024px){
     .header__principal{
-        padding-right: 145px;
+        padding-right: 0px;
+
     }
 }
 
@@ -46,14 +49,14 @@
 @media (max-width:1024px){
     .header__texto{
         margin: 10px;
-        padding: 0px 82px 30px 22px;
+        padding: 0px 0px 30px 22px;
     }
 }
 
 @media (max-width:375px){
     .header__texto{
         margin: 10px;
-        padding: 0px 19px 31px 17px;
+        padding: 0px 0px 31px 17px;
     }
 }
 

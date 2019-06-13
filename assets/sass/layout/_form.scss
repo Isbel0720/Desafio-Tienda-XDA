@@ -31,8 +31,9 @@
 @media (max-width:375px){
     .form-group{
         font-family: $old-standar-tt;
-        padding-right: 0px;
+        padding-right: 30px;
         padding-bottom: 62px;
+
     }
 }
 
@@ -56,9 +57,9 @@
 @media (max-width:1024px){
     .rotate-text{
         position: absolute;
-        top: 690px;
+        top: 1671px;
         color: $smoky-black;
-        margin-left: 550px;
+        margin-left: 953px;
         transform: rotate(-270deg);
         font-family: $old-standar-tt;
     }
@@ -69,7 +70,7 @@
         position: absolute;
         top: 1040px;
         color: #0c0910;
-        margin-left: 372px;
+        margin-left: 367px;
         transform: rotate(-270deg);
         font-family: $old-standar-tt;
     }
@@ -78,4 +79,8 @@
 
 .form-control{
     border-radius: 0px;
+}
+
+.form__call-text{
+    padding-bottom: 20px;
 }

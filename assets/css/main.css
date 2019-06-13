@@ -9676,7 +9676,7 @@ h3 {
   body {
     background: url("../img/img-hero.png");
     background-repeat: no-repeat;
-    background-size: 112%;
+    background-size: 110%;
     background-position: right;
     background-position: 1px 20px;
   }
@@ -9741,7 +9741,7 @@ table {
     padding-right: 100px;
     padding-left: 33px;
     padding-bottom: 10px;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 800;
   }
 }
@@ -9751,7 +9751,7 @@ table {
     padding-right: 20px;
     padding-left: 21px;
     padding-bottom: 10px;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 800;
   }
 }
@@ -9761,7 +9761,7 @@ table {
     padding-right: 7px;
     padding-left: 21px;
     padding-bottom: 10px;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 800;
   }
 }
@@ -9797,12 +9797,14 @@ h2 {
 }
 @media (max-width: 1024px) {
   .header {
-    margin: 50px 50px 30px;
+    margin: 996px 6px 22px;
+    padding: 80px 46px 0px;
   }
 }
 @media (max-width: 375px) {
   .header {
-    margin: 668px 30px 0px;
+    margin: 593px 30px 0px 0px;
+    padding: 76px 24px 0px;
   }
 }
 @media (min-width: 1200px) {
@@ -9812,7 +9814,7 @@ h2 {
 }
 @media (max-width: 1024px) {
   .header__principal {
-    padding-right: 145px;
+    padding-right: 0px;
   }
 }
 @media (max-width: 375px) {
@@ -9831,13 +9833,13 @@ h2 {
 @media (max-width: 1024px) {
   .header__texto {
     margin: 10px;
-    padding: 0px 82px 30px 22px;
+    padding: 0px 0px 30px 22px;
   }
 }
 @media (max-width: 375px) {
   .header__texto {
     margin: 10px;
-    padding: 0px 19px 31px 17px;
+    padding: 0px 0px 31px 17px;
   }
 }
 .formulario {
@@ -9872,7 +9874,7 @@ h2 {
 @media (max-width: 375px) {
   .form-group {
     font-family: "Old Standard TT", "serif";
-    padding-right: 0px;
+    padding-right: 30px;
     padding-bottom: 62px;
   }
 }
@@ -9893,9 +9895,9 @@ h2 {
 @media (max-width: 1024px) {
   .rotate-text {
     position: absolute;
-    top: 690px;
+    top: 1671px;
     color: #0c0910;
-    margin-left: 550px;
+    margin-left: 953px;
     transform: rotate(-270deg);
     font-family: "Old Standard TT", "serif";
   }
@@ -9905,13 +9907,17 @@ h2 {
     position: absolute;
     top: 1040px;
     color: #0c0910;
-    margin-left: 372px;
+    margin-left: 367px;
     transform: rotate(-270deg);
     font-family: "Old Standard TT", "serif";
   }
 }
 .form-control {
   border-radius: 0px;
+}
+
+.form__call-text {
+  padding-bottom: 20px;
 }
 
 @media (min-width: 1200px) {
@@ -9924,6 +9930,7 @@ h2 {
   .navbar {
     padding-left: 0px;
     margin-left: 0px;
+    margin-right: -2px;
   }
 }
 @media (max-width: 375px) {
@@ -9932,7 +9939,7 @@ h2 {
     margin-left: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
-    margin-right: -47px;
+    margin-right: -40px;
   }
 }
 .navbar-nav {
