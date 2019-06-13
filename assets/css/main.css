@@ -9655,13 +9655,32 @@ h3 {
     border-color: #dee2e6;
   }
 }
-body {
-  background: url("assets/img/img-hero.jpg");
-  background-repeat: no-repeat;
-  background-size: 50%;
-  background-position: right;
+@media (min-width: 1200px) {
+  body {
+    background: url("../img/img-hero.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+  }
 }
-
+@media (max-width: 1024px) {
+  body {
+    background: url("../img/img-hero.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right;
+    background-position: 1px 20px;
+  }
+}
+@media (max-width: 375px) {
+  body {
+    background: url("../img/img-hero.png");
+    background-repeat: no-repeat;
+    background-size: 112%;
+    background-position: right;
+    background-position: 1px 20px;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -9716,95 +9735,237 @@ table {
   border-spacing: 0;
 }
 
-h1 {
-  font-family: "Old Standard TT", "serif";
-  padding-right: 100px;
-  padding-left: 33px;
-  padding-bottom: 10px;
-  font-size: 40px;
-  font-style: 400;
+@media (min-width: 1200px) {
+  h1 {
+    font-family: "Old Standard TT", "serif";
+    padding-right: 100px;
+    padding-left: 33px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: 800;
+  }
 }
-
+@media (max-width: 1024px) {
+  h1 {
+    font-family: "Old Standard TT", "serif";
+    padding-right: 20px;
+    padding-left: 21px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: 800;
+  }
+}
+@media (max-width: 375px) {
+  h1 {
+    font-family: "Old Standard TT", "serif";
+    padding-right: 7px;
+    padding-left: 21px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: 800;
+  }
+}
 h2 {
   font-family: "Old Standard TT", "serif";
+  font-size: 35px;
 }
 
-p {
-  font-family: "Raleway", "sans-serif";
-  font-size: 400;
-  line-height: 30px;
+@media (min-width: 1200px) {
+  p {
+    font-family: "Raleway", "sans-serif";
+    font-size: 400;
+    line-height: 30px;
+  }
 }
-
-.header {
-  margin: 50px 50px 30px;
+@media (max-width: 1024px) {
+  p {
+    font-family: "Raleway", "sans-serif";
+    font-size: 400;
+    line-height: 30px;
+  }
 }
-
-.header__principal {
-  padding-right: 145px;
+@media (max-width: 375px) {
+  p {
+    font-family: "Raleway", "sans-serif";
+    line-height: 30px;
+  }
 }
-
-.header__texto {
-  margin: 10px;
-  padding: 0px 82px 30px 22px;
+@media (min-width: 1200px) {
+  .header {
+    margin: 50px 50px 30px;
+  }
 }
-
+@media (max-width: 1024px) {
+  .header {
+    margin: 50px 50px 30px;
+  }
+}
+@media (max-width: 375px) {
+  .header {
+    margin: 668px 30px 0px;
+  }
+}
+@media (min-width: 1200px) {
+  .header__principal {
+    padding-right: 145px;
+  }
+}
+@media (max-width: 1024px) {
+  .header__principal {
+    padding-right: 145px;
+  }
+}
+@media (max-width: 375px) {
+  .header__principal {
+    padding-right: 0px;
+    padding-left: 3px;
+    margin-top: -226px;
+  }
+}
+@media (min-width: 1200px) {
+  .header__texto {
+    margin: 10px;
+    padding: 0px 82px 30px 22px;
+  }
+}
+@media (max-width: 1024px) {
+  .header__texto {
+    margin: 10px;
+    padding: 0px 82px 30px 22px;
+  }
+}
+@media (max-width: 375px) {
+  .header__texto {
+    margin: 10px;
+    padding: 0px 19px 31px 17px;
+  }
+}
 .formulario {
   background-color: #0c0910;
   color: #fff;
 }
 
-.noticias {
+.formulario__noticias {
   padding: 30px 0px 10px 40px;
 }
 
-.form-group {
-  padding-left: 18px;
-  padding-right: 100px;
-  padding-bottom: 105px;
-  margin-bottom: 0px;
-  margin-left: 20px;
-  font-family: "Old Standard TT", "serif";
+@media (min-width: 1200px) {
+  .form-group {
+    padding-left: 18px;
+    padding-right: 100px;
+    padding-bottom: 105px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-family: "Old Standard TT", "serif";
+  }
 }
-
+@media (max-width: 1024px) {
+  .form-group {
+    padding-left: 18px;
+    padding-right: 100px;
+    padding-bottom: 105px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-family: "Old Standard TT", "serif";
+  }
+}
+@media (max-width: 375px) {
+  .form-group {
+    font-family: "Old Standard TT", "serif";
+    padding-right: 0px;
+    padding-bottom: 62px;
+  }
+}
 .form-control {
   font-family: "Raleway", "sans-serif";
 }
 
-.rotate-text {
-  position: absolute;
-  top: 690px;
-  color: #0c0910;
-  margin-left: 550px;
-  transform: rotate(-270deg);
-  font-family: "Old Standard TT", "serif";
+@media (min-width: 1200px) {
+  .rotate-text {
+    position: absolute;
+    top: 690px;
+    color: #0c0910;
+    margin-left: 550px;
+    transform: rotate(-270deg);
+    font-family: "Old Standard TT", "serif";
+  }
+}
+@media (max-width: 1024px) {
+  .rotate-text {
+    position: absolute;
+    top: 690px;
+    color: #0c0910;
+    margin-left: 550px;
+    transform: rotate(-270deg);
+    font-family: "Old Standard TT", "serif";
+  }
+}
+@media (max-width: 375px) {
+  .rotate-text {
+    position: absolute;
+    top: 1040px;
+    color: #0c0910;
+    margin-left: 372px;
+    transform: rotate(-270deg);
+    font-family: "Old Standard TT", "serif";
+  }
+}
+.form-control {
+  border-radius: 0px;
 }
 
-.navbar {
-  padding-left: 0px;
-  margin-left: 0px;
+@media (min-width: 1200px) {
+  .navbar {
+    padding-left: 0px;
+    margin-left: 0px;
+  }
 }
-
+@media (max-width: 1024px) {
+  .navbar {
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 375px) {
+  .navbar {
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: -47px;
+  }
+}
 .navbar-nav {
   padding-right: 30px;
   font-family: "Raleway", "sans-serif";
-  font-size: 800;
+  font-weight: 800;
+  color: #0c0910;
 }
 
 .navbar-light .navbar-brand {
   color: #fff;
-  font-size: 30px;
+  font-size: 20px;
   background-color: #0c0910;
   font-family: "Old Standard TT", "serif";
+  padding: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #0c0910;
 }
 
 .button-buy {
   margin: 0px 0px 30px 30px;
-  font-family: "Raleway", "sans-serif";
 }
 
 .formulario__button__btn {
   border-color: #0c0910;
-  color: #fff;
+  background: #fff;
+  color: #0c0910;
+  font-family: "Raleway", "sans-serif";
+  font-style: "sans-serif";
+  font-weight: 800;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */

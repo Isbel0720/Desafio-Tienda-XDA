@@ -1,6 +1,29 @@
-    body{
-        background: url('assets/img/img-hero.jpg');
-        background-repeat: no-repeat;
-        background-size: 50%;  
-        background-position: right;
+    
+    @media (min-width:1200px){
+        body {
+            background: url('../img/img-hero.png');
+            background-repeat: no-repeat;
+            background-size: 50%;  
+            background-position: right;
+        }
     }
+    
+    @media (max-width:1024px){
+        body {
+            background: url('../img/img-hero.png');
+            background-repeat: no-repeat;
+            background-size: 100%;  
+            background-position: right;
+            background-position: 1px 20px;
+        }
+    }
+    @media (max-width:375px){
+        body {
+            background: url('../img/img-hero.png');
+            background-repeat: no-repeat;
+            background-size: 112%;  
+            background-position: right;
+            background-position: 1px 20px;
+        }
+    }
+    

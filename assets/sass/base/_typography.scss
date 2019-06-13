@@ -1,19 +1,61 @@
-h1{
-    font-family: $old-standar-tt;
-    padding-right: 100px;
-    padding-left: 33px;
-    padding-bottom: 10px;
-    font-size: $xxx-large;
-    font-style: $regular;
+@media (min-width:1200px){
+    h1{
+        font-family: $old-standar-tt;
+        padding-right: 100px;
+        padding-left: 33px;
+        padding-bottom: 10px;
+        font-size: $xxx-large;
+        font-weight: $negro;
+    }
+}
+
+@media (max-width:1024px){
+    h1{
+        font-family: $old-standar-tt;
+        padding-right: 20px;
+        padding-left: 21px;
+        padding-bottom: 10px;
+        font-size: $xxx-large;
+        font-weight: $negro;
+    }
+}
+
+@media (max-width:375px){
+    h1{
+        font-family: $old-standar-tt;
+        padding-right: 7px;
+        padding-left: 21px;
+        padding-bottom: 10px;
+        font-size: $xxx-large;
+        font-weight: $negro;
+    }
 }
 
 h2{
-
     font-family: $old-standar-tt;
+    font-size: $xx-large;
 }
 
-p{
-    font-family: $raleway;
-    font-size: $regular;
-    line-height: 30px;
+@media (min-width:1200px){
+    p{
+        font-family: $raleway;
+        font-size: $regular;
+        line-height: 30px;
+    } 
+}
+
+@media (max-width:1024px){
+    p{
+        font-family: $raleway;
+        font-size: $regular;
+        line-height: 30px;
+    } 
+}
+
+
+@media (max-width:375px){
+    p{
+        font-family: $raleway;
+        line-height: 30px;
+    }
 }
