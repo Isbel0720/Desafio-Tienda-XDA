@@ -1,0 +1,33 @@
+@media (min-width:1200px){
+    .suscribe__text{
+        position: absolute;
+        top: 690px;
+        color: $smoky-black;
+        margin-left: 550px;
+        transform: rotate(-270deg);
+        font-family: $old-standar-tt;
+    }
+}
+
+@media (max-width:1024px){
+    .suscribe__text{
+        position: absolute;
+        top: 1671px;
+        color: $smoky-black;
+        margin-left: 940px;
+        transform: rotate(-270deg);
+        font-family: $old-standar-tt;
+    }
+}
+
+@media (max-width:375px){
+    .suscribe__text{
+        position: absolute;
+        top: 1018px;
+        color: #0c0910;
+        margin-left: 347px;
+        transform: rotate(-270deg);
+        font-family: $old-standar-tt;
+    }
+
+}

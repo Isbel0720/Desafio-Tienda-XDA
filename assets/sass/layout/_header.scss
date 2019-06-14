@@ -1,12 +1,12 @@
 @media (min-width:1200px){
 .header{
-    margin: 50px 50px 30px;
+    margin: 50px 0px 0px 50px;
 }
 }
 
 @media (max-width:1024px){
     .header{
-        margin: 996px 6px 22px;
+        margin: 960px 6px 22px;
         padding: 80px 46px 0px;
     }
 }
@@ -42,7 +42,7 @@
 @media (min-width:1200px){
     .header__texto{
         margin: 10px;
-        padding: 0px 82px 30px 22px;
+        padding: 0px 283px 30px 22px;
     }
 }
 
